@@ -1,6 +1,5 @@
-import { Args, Mutation, Resolver } from '@nestjs/graphql';
+import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { StudentService } from './student.service';
-import { Query } from '@nestjs/graphql';
 import { StudentType } from './student.type';
 
 @Resolver()
